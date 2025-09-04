@@ -66,14 +66,13 @@
 ### Installation
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/arpitttttt/community-events.git
-cd steamify
+cd community-events
 
-# Install frontend dependencies
-cd client
+# Install dependencies
 npm install
 
-# Install backend dependencies
-cd ../server
-npm install
+# Start development server
+npm run dev
+
